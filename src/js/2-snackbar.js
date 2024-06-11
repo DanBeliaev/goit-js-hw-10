@@ -19,7 +19,6 @@ form.addEventListener("submit", (event) => {
             }
         }, delay)
     });
-
     prom
     .then(value => {
         iziToast.success({
